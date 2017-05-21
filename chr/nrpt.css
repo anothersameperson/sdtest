@@ -1,0 +1,37 @@
+.footer>div:not([class]) {
+    position: fixed;
+    top: 410px;
+    right: 0px;
+    margin-top: -100px;
+    z-index: 105;
+    max-width: 100%;
+	display: inline-block !important;
+}
+
+#report-form{
+    opacity: .7;
+    background: url('https://raw.githubusercontent.com/anothersameperson/SimpleDark/master/src/gui/rpt.png') center no-repeat #292825;
+    border-left: 1px solid #f60!important;
+    max-width: 100%;
+    color: #292825;
+    cursor: pointer;
+    text-align: center;
+    width: 35px;
+    line-height: 1.3em;
+    position: relative;
+    height: 26px;
+    text-indent: 100%;
+    overflow: hidden;
+    margin: 0 0 0 auto !important;
+}
+
+#report-form:hover {
+    background: #252420!important;
+    opacity: 1;
+    width: 410px;
+    text-indent: 0;
+}
+#report-form-comment {
+    margin-bottom: 10px;
+    width: 43%!important;
+}

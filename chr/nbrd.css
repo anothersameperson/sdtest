@@ -1,0 +1,44 @@
+.dropd-board-btn{
+	display: none !important;
+}
+
+.catalog.pace-done>header>.adminbar>.rmenu>.dropd-boards {
+    display: inherit;
+}
+
+.dropd-boards {
+	position: fixed !important;
+    top: 540px;
+    right: 0px;
+    margin-top: -100px;
+    z-index: 105;
+    max-width: 100%;
+	display: block !important;
+}
+
+
+#dropd-board-list {
+	display: inherit;
+    opacity: .7;
+    background: url('https://raw.githubusercontent.com/anothersameperson/SimpleDark/master/src/gui/fav.png') center no-repeat #292825!important;
+    border-left: 1px solid #f60!important;
+    max-width: 100%;
+    color: #292825;
+    cursor: pointer;
+    text-align: justify;
+    width: 35px;
+    line-height: 1.3em;
+    position: relative;
+    height: 26px;
+    text-indent: 100%;
+    overflow: hidden;
+    margin: 0 0 0 auto !important;
+}
+
+#dropd-board-list:hover {
+    background: #252420!important;
+    opacity: 1;
+    width: 410px;
+    height: auto;
+    text-indent: 0;
+}

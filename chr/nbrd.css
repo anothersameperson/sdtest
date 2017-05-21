@@ -2,10 +2,6 @@
 	display: none !important;
 }
 
-.catalog.pace-done>header>.adminbar>.rmenu>.dropd-boards {
-    display: inherit;
-}
-
 .dropd-boards {
 	position: fixed !important;
     top: 540px;

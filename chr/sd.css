@@ -229,10 +229,6 @@ dl.menu dd, #boardNavMobile select {
     border-radius: 0;
 }
 
-.catalog.pace-done>header>.adminbar>.rmenu>.dropd-boards {
-    display: none!important;
-}
-
 .hdescription, .hdescription-stats, .boardsubj {
     color: #9b8165 !important;
 }
